@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
 //                Toast.makeText(MainActivity.this, et.getText().toString(), Toast.LENGTH_SHORT).show();
                 Intent i = new Intent(MainActivity.this, Main2Activity.class);
                 String s = et.getText().toString();
-                i.putExtra("MIOs",s);
+                i.putExtra("MIOss",s);
                 startActivity(i);
             }
         });

@@ -14,7 +14,7 @@ TextView tv;
 
         Bundle extras = getIntent().getExtras();
         if(extras !=null) {
-            String value = extras.getString("MIOs");
+            String value = extras.getString("MIOss");
             tv.setText(value);
         }
     }
